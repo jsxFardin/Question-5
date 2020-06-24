@@ -6,7 +6,6 @@
             <div class="col-9">{{task.title }}</div>
             <div class="col-1"><button class="btn btn-sm btn-block btn-danger" @click.prevent="removeTodo(index)"> &times; </button></div>
             <div class="col-1"><button class="btn btn-sm btn-block btn-light" @click.prevent="completeTodo(index)">{{ task.completed ? '&#9989;' : ' &#x274F;'}}</button></div>
-            <div class="col-1"><button class="btn btn-sm btn-block btn-light"> &#128065; </button></div>
         </div>
     </div>
   </div>
