@@ -6,8 +6,7 @@
                 <div class="card bg-light">
                   <div class="card-header">
                       <div class="card-title text-primary text-center">
-                          <img src="@/assets/wedevs-logo-colored.svg"/>
-                          <div>Wedevs ToDo App</div>
+                          <div>ToDo App</div>
                       </div>
                   </div>
                   <div class="card-body">

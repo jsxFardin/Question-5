@@ -29,7 +29,7 @@ export default {
                 title : this.newTodo,
                 completed : false
             }
-            this.$store.dispatch('addTodo', task);
+            if(this.newTodo) this.$store.dispatch('addTodo', task);
             this.newTodo = '';
         }
     }
